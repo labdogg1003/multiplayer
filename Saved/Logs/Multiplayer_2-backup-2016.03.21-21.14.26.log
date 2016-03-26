@@ -1,0 +1,189 @@
+﻿Log file open, 03/21/16 21:08:45
+LogInit:Display: Running engine for game: Multiplayer
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(941320536) SRandInit(941320538).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.099962
+LogConfig:Warning: Failed to saved backup for config[Engine]
+LogConfig:Warning: Failed to saved backup for config[Game]
+LogConfig:Warning: Failed to saved backup for config[Input]
+LogConfig:Warning: Failed to saved backup for config[Editor]
+LogConfig:Warning: Failed to saved backup for config[EditorPerProjectUserSettings]
+LogConfig:Warning: Failed to saved backup for config[EditorSettings]
+LogConfig:Warning: Failed to saved backup for config[EditorLayout]
+LogConfig:Warning: Failed to saved backup for config[EditorKeyBindings]
+LogConfig:Warning: Failed to saved backup for config[Compat]
+LogConfig:Warning: Failed to saved backup for config[Lightmass]
+LogConfig:Warning: Failed to saved backup for config[Scalability]
+LogConfig:Warning: Failed to saved backup for config[GameUserSettings]
+[2016.03.22-02.08.46:373][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.22-02.08.46:373][  0]LogInit: API Version: 2758231
+[2016.03.22-02.08.46:373][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.22-02.08.46:373][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.22-02.08.46:373][  0]LogInit: Build Configuration: Development
+[2016.03.22-02.08.46:373][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.22-02.08.46:373][  0]LogInit: Command line: -EpicPortal 
+[2016.03.22-02.08.46:373][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.22-02.08.46:373][  0]LogInit: Rocket: 1
+[2016.03.22-02.08.46:381][  0]LogInit: Using libcurl 7.41.0
+[2016.03.22-02.08.46:381][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.22-02.08.46:381][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.22-02.08.46:381][  0]LogInit:  - other features:
+[2016.03.22-02.08.46:381][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.22-02.08.46:381][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.22-02.08.46:381][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.22-02.08.46:381][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.22-02.08.46:381][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.22-02.08.46:381][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.22-02.08.46:381][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.22-02.08.46:381][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.22-02.08.46:381][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.22-02.08.46:381][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.22-02.08.46:756][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.22-02.08.46:906][  0]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.22-02.08.46:914][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.22-02.08.46:921][  0]LogInit: Object subsystem initialized
+[2016.03.22-02.08.46:922][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.22-02.08.46:922][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.22-02.08.46:959][  0]LogConfig:Warning: Failed to saved backup for config[DeviceProfiles]
+[2016.03.22-02.08.46:962][  0]LogInit: Computer: JAKE-LABEOTS-PC
+[2016.03.22-02.08.46:962][  0]LogInit: User: JakeLabeots
+[2016.03.22-02.08.46:962][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.22-02.08.46:962][  0]LogInit: High frequency timer resolution =3.323577 MHz
+[2016.03.22-02.08.46:962][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.03.22-02.08.46:962][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-02.08.46:962][  0]LogMemory: Process Physical Memory: 59.50 MB used, 59.50 MB peak
+[2016.03.22-02.08.46:962][  0]LogMemory: Process Virtual Memory: 56.98 MB used, 56.98 MB peak
+[2016.03.22-02.08.46:962][  0]LogMemory: Physical Memory: 5049.86 MB used, 8149.52 MB total
+[2016.03.22-02.08.46:962][  0]LogMemory: Virtual Memory: 385.54 MB used, 134217728.00 MB total
+[2016.03.22-02.08.46:995][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.22-02.08.47:432][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.03.22-02.08.47:432][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 4074MB of shared system memory, 2 output[s]
+[2016.03.22-02.08.47:433][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.22-02.08.47:434][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4074MB of shared system memory, 0 output[s]
+[2016.03.22-02.08.47:434][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.22-02.08.47:440][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.22-02.08.47:440][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.22-02.08.47:453][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.22-02.08.47:469][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Intermediate/Shaders/WorkingDirectory/7976/).
+[2016.03.22-02.08.47:469][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JAKE-L~1/AppData/Local/Temp/UnrealShaderWorkingDir/19F283FD4D2E900D81C36AA217F8CD0C/'.
+[2016.03.22-02.08.47:469][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.22-02.08.48:482][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.22-02.08.48:488][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.22-02.08.48:493][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.22-02.08.48:498][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.22-02.08.48:504][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.22-02.08.48:507][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.22-02.08.48:510][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.22-02.08.48:512][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.22-02.08.48:515][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.22-02.08.48:519][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.22-02.08.48:523][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.22-02.08.48:528][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.22-02.08.48:528][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.22-02.08.48:529][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.22-02.08.48:548][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.22-02.08.48:551][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.22-02.08.48:577][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.22-02.08.48:580][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.22-02.08.48:580][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.22-02.08.48:710][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.22-02.08.48:764][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/Jake-Labeots/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.22-02.08.48:764][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jake-Labeots/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.22-02.08.48:764][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jake-Labeots/Perforce/multiplayer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.22-02.08.48:764][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.22-02.08.48:764][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jake-Labeots/Perforce/multiplayer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.22-02.08.48:764][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.22-02.08.48:823][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.22-02.08.48:835][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jake-Labeots/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.22-02.08.49:308][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.22-02.08.49:312][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.22-02.08.49:388][  0]LogConfig:Warning: Failed to saved backup for config[TemplateDefs]
+[2016.03.22-02.08.49:392][  0]LogConfig:Warning: Failed to saved backup for config[GameplayTags]
+[2016.03.22-02.08.49:463][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.22-02.08.49:463][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.22-02.08.50:709][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.22-02.08.50:807][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2016.03.22-02.08.50:824][  0]LogConfig:Warning: Failed to saved backup for config[InternationalizationExport]
+[2016.03.22-02.08.50:825][  0]LogConfig:Warning: Failed to saved backup for config[TranslationPickerSettings]
+[2016.03.22-02.08.51:010][  0]LogConfig:Warning: Failed to saved backup for config[SourceControlSettings]
+[2016.03.22-02.08.51:012][  0]LogConfig:Warning: Failed to saved backup for config[SourceControlSettings]
+[2016.03.22-02.08.51:012][  0]SourceControl: Info Source control is disabled
+[2016.03.22-02.08.51:013][  0]SourceControl: Info Source control is disabled
+[2016.03.22-02.08.51:913][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.22-02.08.51:913][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.03.22-02.08.51:976][  0]LogEngine: Initializing Engine...
+[2016.03.22-02.08.51:978][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.22-02.08.51:979][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.22-02.08.52:107][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.22-02.08.52:117][  0]LogInit: XAudio2 using 'Speakers (M-Audio Mobile Pre MKII)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-02.08.52:129][  0]LogInit: FAudioDevice initialized.
+[2016.03.22-02.08.52:153][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Jake-Labeots/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.22-02.08.52:157][  0]LogInit: Texture streaming: Enabled
+[2016.03.22-02.08.52:163][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.22-02.08.52:163][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.22-02.08.52:163][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 1c408550412074472577dbb807d1551c|97c76976fa3740d3b226398cc3775821|3c95985a-48c0-43f1-86b1-53582fe17255
+[2016.03.22-02.08.52:163][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.22-02.08.52:306][  0]LogInit: Transaction tracking system initialized
+[2016.03.22-02.08.52:687][  0]BlueprintLog: New page: Editor Load
+[2016.03.22-02.08.52:779][  0]LogConfig:Warning: Failed to saved backup for config[LocalizationServiceSettings]
+[2016.03.22-02.08.52:781][  0]LogConfig:Warning: Failed to saved backup for config[LocalizationServiceSettings]
+[2016.03.22-02.08.52:781][  0]LocalizationService: Info Localization service is disabled
+[2016.03.22-02.08.53:134][  0]LogConsoleResponse:Display: 
+[2016.03.22-02.08.53:614][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.22-02.08.54:377][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.22-02.08.54:385][  0]LightingResults: New page: Lighting Build
+[2016.03.22-02.08.54:389][  0]MapCheck: New page: Map Check
+[2016.03.22-02.08.54:389][  0]LightingResults: New page: Lighting Build
+[2016.03.22-02.08.54:398][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017DFBCEF420
+[2016.03.22-02.08.56:055][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jake-Labeots/Perforce/multiplayer/Content/' took 1.21s
+[2016.03.22-02.08.56:055][  0]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Intermediate/CachedAssetRegistry.bin', retrying in .5s...
+[2016.03.22-02.08.56:055][  0]LogFileManager:Error: Error deleting file '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Intermediate/CachedAssetRegistry.bin'.
+[2016.03.22-02.09.09:607][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.09.10:898][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.22-02.09.10:991][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.22-02.09.11:053][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.588ms to complete.
+[2016.03.22-02.09.11:053][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 16.676
+[2016.03.22-02.09.15:447][  0]LogSourceControl: Attempting 'p4 client -o Jake_Multiplayer'
+[2016.03.22-02.09.15:447][  0]LogCollectionManager: Loaded 0 collections in 0.002869 seconds
+[2016.03.22-02.09.16:436][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jake-Labeots/Perforce/multiplayer/Saved/Collections/' took 0.01s
+[2016.03.22-02.09.16:436][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jake-Labeots/Perforce/multiplayer/Content/Developers/JakeLabeots/Collections/' took 0.01s
+[2016.03.22-02.09.16:436][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jake-Labeots/Perforce/multiplayer/Content/Collections/' took 0.01s
+[2016.03.22-02.09.16:436][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.22-02.09.16:509][  0]LogContentBrowser: Native class hierarchy populated in 0.0347 seconds. Added 1893 classes and 338 folders.
+[2016.03.22-02.09.17:093][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.03.22-02.09.20:864][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0247 seconds. Added 0 classes and 0 folders.
+[2016.03.22-02.09.21:079][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.03.22-02.09.22:155][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.22-02.09.22:539][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.22-02.09.22:638][  0]LogLoad: Full Startup: 37.29 seconds (BP compile: 1.67 seconds)
+[2016.03.22-02.09.22:981][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.22-02.09.23:047][  0]LogFileManager:Warning: DeleteFile was unable to delete 'C:/Users/Jake-Labeots/Perforce/multiplayer/Intermediate/ReimportCache/3688439234.bin', retrying in .5s...
+[2016.03.22-02.09.23:548][  0]LogFileManager:Error: Error deleting file 'C:/Users/Jake-Labeots/Perforce/multiplayer/Intermediate/ReimportCache/3688439234.bin'.
+[2016.03.22-02.10.38:683][  0]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: bMoved [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Developer\DirectoryWatcher\Private\FileCache.cpp] [Line: 527]
+Unable to move file-cache for 'C:/Users/Jake-Labeots/Perforce/multiplayer/Content/' from 'C:/Users/Jake-Labeots/Perforce/multiplayer/Intermediate/ReimportCache/3688439234.bin.tmp' to 'C:/Users/Jake-Labeots/Perforce/multiplayer/Intermediate/ReimportCache/3688439234.bin'.
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:276]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:385]
+UE4Editor-DirectoryWatcher.dll!DirectoryWatcher::FFileCache::WriteCache() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\developer\directorywatcher\private\filecache.cpp:527]
+UE4Editor-UnrealEd.dll!FAutoReimportManager::Idle() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\autoreimport\autoreimportmanager.cpp:615]
+UE4Editor-UnrealEd.dll!<lambda_794213ebae30b52efd5c6e4268c1086c>::operator()() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\autoreimport\autoreimportmanager.cpp:244]
+UE4Editor-UnrealEd.dll!UE4Function_Private::TFunctionRefCaller<<lambda_794213ebae30b52efd5c6e4268c1086c>,TOptional<enum ECurrentState> __cdecl(DirectoryWatcher::FTimeLimit const & __ptr64)>::Call() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\templates\function.h:180]
+UE4Editor-UnrealEd.dll!UE4Function_Private::TFunctionRefBase<TOptional<enum ECurrentState> __cdecl(DirectoryWatcher::FTimeLimit const & __ptr64)>::operator()() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\templates\function.h:217]
+UE4Editor-UnrealEd.dll!FStateMachine<enum ECurrentState>::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\autoreimport\autoreimportmanager.cpp:50]
+UE4Editor-UnrealEd.dll!FAutoReimportManager::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\autoreimport\autoreimportmanager.cpp:666]
+UE4Editor-UnrealEd.dll!FTickableEditorObject::TickObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\public\tickableeditorobject.h:15]
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\editorengine.cpp:1116]
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\unrealedengine.cpp:361]
+UE4Editor.exe!FEngineLoop::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launchengineloop.cpp:2427]
+UE4Editor.exe!GuardedMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+

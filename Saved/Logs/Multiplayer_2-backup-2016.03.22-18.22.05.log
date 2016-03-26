@@ -1,0 +1,1190 @@
+﻿Log file open, 03/21/16 21:14:26
+LogInit:Display: Running engine for game: Multiplayer
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2072145212) SRandInit(2072145213).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.106123
+LogConfig:Warning: Failed to saved backup for config[Engine]
+LogConfig:Warning: Failed to saved backup for config[Game]
+LogConfig:Warning: Failed to saved backup for config[Input]
+LogConfig:Warning: Failed to saved backup for config[Editor]
+LogConfig:Warning: Failed to saved backup for config[EditorPerProjectUserSettings]
+LogConfig:Warning: Failed to saved backup for config[EditorSettings]
+LogConfig:Warning: Failed to saved backup for config[EditorLayout]
+LogConfig:Warning: Failed to saved backup for config[EditorKeyBindings]
+LogConfig:Warning: Failed to saved backup for config[Compat]
+LogConfig:Warning: Failed to saved backup for config[Lightmass]
+LogConfig:Warning: Failed to saved backup for config[Scalability]
+LogConfig:Warning: Failed to saved backup for config[GameUserSettings]
+[2016.03.22-02.14.26:527][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.22-02.14.26:527][  0]LogInit: API Version: 2758231
+[2016.03.22-02.14.26:527][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.22-02.14.26:527][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.22-02.14.26:527][  0]LogInit: Build Configuration: Development
+[2016.03.22-02.14.26:527][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.22-02.14.26:527][  0]LogInit: Command line: -EpicPortal 
+[2016.03.22-02.14.26:527][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.22-02.14.26:527][  0]LogInit: Rocket: 1
+[2016.03.22-02.14.26:537][  0]LogInit: Using libcurl 7.41.0
+[2016.03.22-02.14.26:537][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.22-02.14.26:537][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.22-02.14.26:537][  0]LogInit:  - other features:
+[2016.03.22-02.14.26:537][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.22-02.14.26:537][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.22-02.14.26:537][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.22-02.14.26:537][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.22-02.14.26:537][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.22-02.14.26:537][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.22-02.14.26:537][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.22-02.14.26:537][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.22-02.14.26:537][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.22-02.14.26:537][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.22-02.14.26:651][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.22-02.14.26:773][  0]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.22-02.14.26:819][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.22-02.14.26:825][  0]LogInit: Object subsystem initialized
+[2016.03.22-02.14.26:826][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.22-02.14.26:826][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.22-02.14.26:850][  0]LogConfig:Warning: Failed to saved backup for config[DeviceProfiles]
+[2016.03.22-02.14.26:853][  0]LogInit: Computer: JAKE-LABEOTS-PC
+[2016.03.22-02.14.26:853][  0]LogInit: User: JakeLabeots
+[2016.03.22-02.14.26:853][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.22-02.14.26:853][  0]LogInit: High frequency timer resolution =3.323577 MHz
+[2016.03.22-02.14.26:853][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.03.22-02.14.26:853][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-02.14.26:853][  0]LogMemory: Process Physical Memory: 59.53 MB used, 59.53 MB peak
+[2016.03.22-02.14.26:854][  0]LogMemory: Process Virtual Memory: 57.11 MB used, 57.11 MB peak
+[2016.03.22-02.14.26:854][  0]LogMemory: Physical Memory: 3605.36 MB used, 8149.52 MB total
+[2016.03.22-02.14.26:854][  0]LogMemory: Virtual Memory: 385.54 MB used, 134217728.00 MB total
+[2016.03.22-02.14.26:886][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.22-02.14.27:310][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.03.22-02.14.27:310][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 4074MB of shared system memory, 2 output[s]
+[2016.03.22-02.14.27:311][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.22-02.14.27:311][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4074MB of shared system memory, 0 output[s]
+[2016.03.22-02.14.27:311][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.22-02.14.27:315][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.22-02.14.27:315][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.22-02.14.27:325][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.22-02.14.27:336][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Intermediate/Shaders/WorkingDirectory/4880/).
+[2016.03.22-02.14.27:336][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JAKE-L~1/AppData/Local/Temp/UnrealShaderWorkingDir/BFB4FE5E438D7D22C35710AC1B731625/'.
+[2016.03.22-02.14.27:336][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.22-02.14.28:223][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.22-02.14.28:230][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.22-02.14.28:236][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.22-02.14.28:241][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.22-02.14.28:247][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.22-02.14.28:251][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.22-02.14.28:254][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.22-02.14.28:256][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.22-02.14.28:259][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.22-02.14.28:263][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.22-02.14.28:266][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.22-02.14.28:272][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.22-02.14.28:272][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.22-02.14.28:273][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.22-02.14.28:291][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.22-02.14.28:293][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.22-02.14.28:296][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.22-02.14.28:299][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.22-02.14.28:299][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.22-02.14.28:389][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.22-02.14.28:431][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Jake-Labeots/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.22-02.14.28:431][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jake-Labeots/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.22-02.14.28:431][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jake-Labeots/Perforce/multiplayer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.22-02.14.28:431][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.22-02.14.28:431][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jake-Labeots/Perforce/multiplayer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.22-02.14.28:431][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.22-02.14.28:493][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.22-02.14.28:505][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jake-Labeots/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.22-02.14.28:710][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.22-02.14.28:713][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.22-02.14.28:785][  0]LogConfig:Warning: Failed to saved backup for config[TemplateDefs]
+[2016.03.22-02.14.28:790][  0]LogConfig:Warning: Failed to saved backup for config[GameplayTags]
+[2016.03.22-02.14.28:846][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.22-02.14.28:846][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.22-02.14.29:842][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.22-02.14.29:937][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2016.03.22-02.14.29:951][  0]LogConfig:Warning: Failed to saved backup for config[InternationalizationExport]
+[2016.03.22-02.14.29:952][  0]LogConfig:Warning: Failed to saved backup for config[TranslationPickerSettings]
+[2016.03.22-02.14.30:094][  0]LogConfig:Warning: Failed to saved backup for config[SourceControlSettings]
+[2016.03.22-02.14.30:097][  0]LogConfig:Warning: Failed to saved backup for config[SourceControlSettings]
+[2016.03.22-02.14.30:098][  0]SourceControl: Info Source control is disabled
+[2016.03.22-02.14.30:098][  0]SourceControl: Info Source control is disabled
+[2016.03.22-02.14.30:658][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.22-02.14.30:658][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.03.22-02.14.30:720][  0]LogEngine: Initializing Engine...
+[2016.03.22-02.14.30:723][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.22-02.14.30:724][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.22-02.14.30:850][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.22-02.14.30:859][  0]LogInit: XAudio2 using 'Speakers (M-Audio Mobile Pre MKII)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-02.14.30:893][  0]LogInit: FAudioDevice initialized.
+[2016.03.22-02.14.30:931][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Jake-Labeots/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.22-02.14.30:934][  0]LogInit: Texture streaming: Enabled
+[2016.03.22-02.14.30:940][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.22-02.14.30:940][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.22-02.14.30:940][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 1c408550412074472577dbb807d1551c|97c76976fa3740d3b226398cc3775821|3c95985a-48c0-43f1-86b1-53582fe17255
+[2016.03.22-02.14.30:940][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.22-02.14.31:036][  0]LogInit: Transaction tracking system initialized
+[2016.03.22-02.14.31:067][  0]BlueprintLog: New page: Editor Load
+[2016.03.22-02.14.31:157][  0]LogConfig:Warning: Failed to saved backup for config[LocalizationServiceSettings]
+[2016.03.22-02.14.31:158][  0]LogConfig:Warning: Failed to saved backup for config[LocalizationServiceSettings]
+[2016.03.22-02.14.31:159][  0]LocalizationService: Info Localization service is disabled
+[2016.03.22-02.14.31:414][  0]LogConsoleResponse:Display: 
+[2016.03.22-02.14.31:613][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jake-Labeots/Perforce/multiplayer/Content/' took 0.02s
+[2016.03.22-02.14.31:614][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.22-02.14.31:844][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.22-02.14.31:844][  0]LightingResults: New page: Lighting Build
+[2016.03.22-02.14.31:848][  0]MapCheck: New page: Map Check
+[2016.03.22-02.14.31:848][  0]LightingResults: New page: Lighting Build
+[2016.03.22-02.14.31:859][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC8251F420
+[2016.03.22-02.14.32:241][  0]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Intermediate/CachedAssetRegistry.bin', retrying in .5s...
+[2016.03.22-02.14.32:688][  0]LogFileManager:Error: Error deleting file '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Intermediate/CachedAssetRegistry.bin'.
+[2016.03.22-02.14.36:267][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.14.36:275][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.22-02.14.36:275][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.22-02.14.36:326][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.142ms to complete.
+[2016.03.22-02.14.36:326][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.483
+[2016.03.22-02.14.38:154][  0]LogSourceControl: Attempting 'p4 client -o Jake_Multiplayer'
+[2016.03.22-02.14.38:154][  0]LogCollectionManager: Loaded 0 collections in 0.002711 seconds
+[2016.03.22-02.14.38:692][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jake-Labeots/Perforce/multiplayer/Saved/Collections/' took 0.01s
+[2016.03.22-02.14.38:692][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jake-Labeots/Perforce/multiplayer/Content/Developers/JakeLabeots/Collections/' took 0.01s
+[2016.03.22-02.14.38:692][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jake-Labeots/Perforce/multiplayer/Content/Collections/' took 0.01s
+[2016.03.22-02.14.38:692][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.22-02.14.38:728][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 1893 classes and 338 folders.
+[2016.03.22-02.14.38:848][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.03.22-02.14.40:660][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.03.22-02.14.40:835][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.03.22-02.14.41:004][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.22-02.14.41:078][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.22-02.14.41:101][  0]LogLoad: Full Startup: 15.52 seconds (BP compile: 0.35 seconds)
+[2016.03.22-02.14.41:112][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.22-02.14.41:114][  0]LogFileManager:Warning: DeleteFile was unable to delete 'C:/Users/Jake-Labeots/Perforce/multiplayer/Intermediate/ReimportCache/3688439234.bin', retrying in .5s...
+[2016.03.22-02.14.41:615][  0]LogFileManager:Error: Error deleting file 'C:/Users/Jake-Labeots/Perforce/multiplayer/Intermediate/ReimportCache/3688439234.bin'.
+[2016.03.22-02.14.45:258][  0]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: bMoved [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Developer\DirectoryWatcher\Private\FileCache.cpp] [Line: 527]
+Unable to move file-cache for 'C:/Users/Jake-Labeots/Perforce/multiplayer/Content/' from 'C:/Users/Jake-Labeots/Perforce/multiplayer/Intermediate/ReimportCache/3688439234.bin.tmp' to 'C:/Users/Jake-Labeots/Perforce/multiplayer/Intermediate/ReimportCache/3688439234.bin'.
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:276]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:385]
+UE4Editor-DirectoryWatcher.dll!DirectoryWatcher::FFileCache::WriteCache() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\developer\directorywatcher\private\filecache.cpp:527]
+UE4Editor-UnrealEd.dll!FAutoReimportManager::Idle() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\autoreimport\autoreimportmanager.cpp:615]
+UE4Editor-UnrealEd.dll!<lambda_794213ebae30b52efd5c6e4268c1086c>::operator()() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\autoreimport\autoreimportmanager.cpp:244]
+UE4Editor-UnrealEd.dll!UE4Function_Private::TFunctionRefCaller<<lambda_794213ebae30b52efd5c6e4268c1086c>,TOptional<enum ECurrentState> __cdecl(DirectoryWatcher::FTimeLimit const & __ptr64)>::Call() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\templates\function.h:180]
+UE4Editor-UnrealEd.dll!UE4Function_Private::TFunctionRefBase<TOptional<enum ECurrentState> __cdecl(DirectoryWatcher::FTimeLimit const & __ptr64)>::operator()() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\templates\function.h:217]
+UE4Editor-UnrealEd.dll!FStateMachine<enum ECurrentState>::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\autoreimport\autoreimportmanager.cpp:50]
+UE4Editor-UnrealEd.dll!FAutoReimportManager::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\autoreimport\autoreimportmanager.cpp:666]
+UE4Editor-UnrealEd.dll!FTickableEditorObject::TickObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\public\tickableeditorobject.h:15]
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\editorengine.cpp:1116]
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\unrealedengine.cpp:361]
+UE4Editor.exe!FEngineLoop::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launchengineloop.cpp:2427]
+UE4Editor.exe!GuardedMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.03.22-02.15.02:287][  0]SourceControl:Error: Error Workspace 'Jake_Multiplayer' does not map into this project's directory.
+[2016.03.22-02.15.02:287][  0]SourceControl:Error: Error You should set your workspace up to map to a directory at or above the project's directory.
+[2016.03.22-02.15.02:287][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.22-02.15.04:631][  0]LogRenderer: Reallocating scene render targets to support 1208x580 (Frame:2).
+[2016.03.22-02.15.09:996][  7]LogAssetRegistry: Asset discovery search completed in 40.0700 seconds
+[2016.03.22-02.15.10:072][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.22-02.15.10:113][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.056437 seconds (updated 0 objects)
+[2016.03.22-02.15.14:788][225]LogSourceControl: Attempting 'p4 clients -u pi'
+[2016.03.22-02.15.14:788][225]LogSourceControl:Error:  Jake_Multiplayer client specs rejected due to host name mismatch (Jake-Labeots-PC)
+[2016.03.22-02.15.14:788][225]LogSourceControl:Error:  raspberrypi client specs rejected due to host name mismatch (raspberrypi)
+[2016.03.22-02.15.16:416][379]LogSourceControl: Attempting 'p4 client -o Jake_Multiplayer'
+[2016.03.22-02.15.16:420][379]SourceControl:Error: Error Workspace 'Jake_Multiplayer' does not map into this project's directory.
+[2016.03.22-02.15.16:420][379]SourceControl:Error: Error You should set your workspace up to map to a directory at or above the project's directory.
+[2016.03.22-02.15.16:475][379]SourceControl:Error: Error Workspace 'Jake_Multiplayer' does not map into this project's directory.
+[2016.03.22-02.15.49:229][321]LogSourceControl: Attempting 'p4 client -o Jake_Multiplayer'
+[2016.03.22-02.15.49:248][323]SourceControl: Info Client Jake_Multiplayer
+[2016.03.22-02.15.49:249][323]SourceControl: Info Update 2016/03/19 13:43:50
+[2016.03.22-02.15.49:249][323]SourceControl: Info Access 2016/03/19 13:43:52
+[2016.03.22-02.15.49:249][323]SourceControl: Info Owner pi
+[2016.03.22-02.15.49:249][323]SourceControl: Info Host Jake-Labeots-PC
+[2016.03.22-02.15.49:249][323]SourceControl: Info Description Created by pi.
+
+[2016.03.22-02.15.49:249][323]SourceControl: Info Root C:\Users\Jake-Labeots\Perforce\multiplayer
+[2016.03.22-02.15.49:249][323]SourceControl: Info Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2016.03.22-02.15.49:249][323]SourceControl: Info SubmitOptions submitunchanged
+[2016.03.22-02.15.49:249][323]SourceControl: Info LineEnd local
+[2016.03.22-02.15.49:249][323]SourceControl: Info View0 //Multiplayer/... //Jake_Multiplayer/...
+[2016.03.22-02.15.49:249][323]SourceControl: Info specFormatted 
+[2016.03.22-02.15.49:249][323]SourceControl: Info func client-FstatInfo
+[2016.03.22-02.16.01:357][366]LogRenderer: Reallocating scene render targets to support 1208x672 (Frame:9).
+[2016.03.22-02.19.05:132][989]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-02.19.05:132][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-02.19.05:192][989]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 21, 2016, 4:19:05 PM)
+[2016.03.22-02.19.05:203][989]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2016.03.22-02.19.05:482][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.279485s)
+[2016.03.22-02.19.05:583][989]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.19.05:584][989]LogPlayLevel: PIE: World Init took: (0.100982s)
+[2016.03.22-02.19.05:584][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.381445s)
+[2016.03.22-02.19.05:624][989]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.22-02.19.06:034][989]LogInit: XAudio2 using 'Speakers (M-Audio Mobile Pre MKII)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-02.19.06:062][989]LogInit: FAudioDevice initialized.
+[2016.03.22-02.19.06:457][989]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.22-02.19.06:628][989]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.21-21.19.06
+[2016.03.22-02.19.06:629][989]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.19.06:636][989]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.19.06:714][989]LogWorld: Bringing up level for play took: 0.089844
+[2016.03.22-02.19.06:744][989]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.22-02.19.07:012][989]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.22-02.19.07:031][989]LogInit: WinSock: I am Jake-Labeots-PC (143.200.126.223:0)
+[2016.03.22-02.19.07:050][989]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.03.22-02.19.07:051][989]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.22-02.19.07:141][989]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap 1.587
+[2016.03.22-02.19.07:161][989]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 21, 2016, 4:19:07 PM)
+[2016.03.22-02.19.07:292][989]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.03.22-02.19.07:293][989]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.22-02.19.07:318][989]LogNet: Game client on port 7777, rate 10000
+[2016.03.22-02.19.07:318][989]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-02.19.07:386][989]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 1.832
+[2016.03.22-02.19.07:391][989]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-02.19.07:409][989]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.03.22-02.19.07:409][989]LogNet: Open ThirdPersonExampleMap 03/21/16 21:19:07 127.0.0.1
+[2016.03.22-02.19.07:410][989]LogNet: Added client connection.  Remote address = 127.0.0.1:58139
+[2016.03.22-02.19.07:454][989]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2016.03.22-02.19.07:455][989]LogNet: Remote platform little endian=1
+[2016.03.22-02.19.07:455][989]LogNet: This platform little endian=1
+[2016.03.22-02.19.07:455][989]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-02.19.07:759][989]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.22-02.19.07:893][990]LogRenderer: Reallocating scene render targets to support 1208x768 (Frame:12).
+[2016.03.22-02.19.08:048][990]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-29CECBEF4EA6AB02B2AF25A503DAEBCE userId: Jake-Labeots-PC-29CECBEF4EA6AB02B2AF25A503DAEBCE
+[2016.03.22-02.19.08:063][990]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.22-02.19.08:068][990]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.22-02.19.08:141][990]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC93467740
+[2016.03.22-02.19.08:192][990]Cmd: MEM
+[2016.03.22-02.19.08:553][990]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-02.19.08:553][990]LogMemory: Process Physical Memory: 3880.07 MB used, 3880.07 MB peak
+[2016.03.22-02.19.08:553][990]LogMemory: Process Virtual Memory: 4620.80 MB used, 4620.80 MB peak
+[2016.03.22-02.19.08:553][990]LogMemory: Physical Memory: 7754.39 MB used, 8149.52 MB total
+[2016.03.22-02.19.08:553][990]LogMemory: Virtual Memory: 5809.36 MB used, 134217728.00 MB total
+[2016.03.22-02.19.08:561][990]LogMemory: 
+[2016.03.22-02.19.08:561][990]Allocator Stats for TBB: (not implemented)
+[2016.03.22-02.19.08:609][990]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
+[2016.03.22-02.19.08:609][990]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.19.08:633][990]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.21-21.19.08
+[2016.03.22-02.19.08:690][990]LogWorld: Bringing up level for play took: 0.061054
+[2016.03.22-02.19.08:702][991]LogNet: Client netspeed is 10000
+[2016.03.22-02.19.08:703][991]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-29CECBEF4EA6AB02B2AF25A503DAEBCE?SplitscreenCount=1
+[2016.03.22-02.19.08:703][991]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.22-02.19.08:796][991]LogNet: Join succeeded: Jake-Labeots-PC-29CE
+[2016.03.22-02.19.08:993][992]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.22-02.19.09:005][992]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.22-02.19.25:144][975]LogPackageName: SearchForPackageOnDisk took   2.294s to resolve ThirdPersonExampleMap.umap.
+[2016.03.22-02.19.25:158][975]LogBlueprintUserMessages: [MPGameInstance_C_0] Server: Session Created
+[2016.03.22-02.19.25:158][975]LogBlueprintUserMessages: [MPMenu_C_0] Server: button pressed
+[2016.03.22-02.19.25:235][975]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve ThirdPersonExampleMap.umap.
+[2016.03.22-02.19.25:235][975]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?listen
+[2016.03.22-02.19.25:235][975]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?listen
+[2016.03.22-02.19.25:235][975]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2016.03.22-02.19.25:235][975]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2016.03.22-02.19.25:304][975]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_1, RemoteAddr: 127.0.0.1:58139 Driver: GameNetDriver, PC: PlayerController_2, Owner: PlayerController_2
+[2016.03.22-02.19.25:305][975]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, PC: PlayerController_2, Owner: PlayerController_2, Channels: 11, RemoteAddr: 127.0.0.1:58139, Time: 2016.03.22-02.19.25
+[2016.03.22-02.19.25:305][975]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2016.03.22-02.19.25:318][975]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2016.03.22-02.19.25:463][975]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC93466C00
+[2016.03.22-02.19.25:586][975]Cmd: MEM
+[2016.03.22-02.19.25:596][975]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-02.19.25:596][975]LogMemory: Process Physical Memory: 3911.59 MB used, 3921.64 MB peak
+[2016.03.22-02.19.25:596][975]LogMemory: Process Virtual Memory: 4540.60 MB used, 4664.30 MB peak
+[2016.03.22-02.19.25:596][975]LogMemory: Physical Memory: 7784.66 MB used, 8149.52 MB total
+[2016.03.22-02.19.25:596][975]LogMemory: Virtual Memory: 5838.23 MB used, 134217728.00 MB total
+[2016.03.22-02.19.25:596][975]LogMemory: 
+[2016.03.22-02.19.25:596][975]Allocator Stats for TBB: (not implemented)
+[2016.03.22-02.19.25:596][975]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2016.03.22-02.19.25:617][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020332s)
+[2016.03.22-02.19.25:618][975]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.19.25:618][975]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2016.03.22-02.19.25:618][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021754s)
+[2016.03.22-02.19.25:618][975]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.22-02.19.25:624][975]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.22-02.19.25:625][975]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2016.03.22-02.19.25:670][975]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.21-21.19.25
+[2016.03.22-02.19.25:670][975]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.19.25:670][975]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.19.25:671][975]LogWorld: Bringing up level for play took: 0.004345
+[2016.03.22-02.19.25:671][975]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.03.22-02.19.25:673][975]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.03.22-02.19.25:673][975]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.03.22-02.19.25:705][975]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2016.03.22-02.19.25:705][975]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, PC: PlayerController_3, Owner: PlayerController_3, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.22-02.19.25
+[2016.03.22-02.19.25:705][975]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2016.03.22-02.19.25:705][975]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.03.22-02.19.25:705][975]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.03.22-02.19.25:705][975]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2016.03.22-02.19.25:706][975]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.03.22-02.19.25:706][975]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.03.22-02.19.25:730][976]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.03.22-02.19.25:730][976]LogNet: Open ThirdPersonExampleMap 03/21/16 21:19:25 127.0.0.1
+[2016.03.22-02.19.25:730][976]LogNet: Added client connection.  Remote address = 127.0.0.1:58139
+[2016.03.22-02.19.25:730][976]LogNetTraffic:Warning: High single frame packet loss: 356
+[2016.03.22-02.19.25:731][976]LogSecurity:Warning: 127.0.0.1:58139: Malformed_Packet: UNetConnection::ReceivedPacket: Received control channel close before open
+[2016.03.22-02.19.25:731][976]LogSecurity:Warning: 127.0.0.1:58139: Closed: Connection closed
+[2016.03.22-02.19.25:731][976]LogNet: UNetConnection::Close: Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_2, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 127.0.0.1:58139, Time: 2016.03.22-02.19.25
+[2016.03.22-02.19.25:731][976]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2016.03.22-02.19.25:732][976]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?closed
+[2016.03.22-02.19.25:732][976]LogNet: Failed; returning to Entry
+[2016.03.22-02.19.25:734][976]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?closed
+[2016.03.22-02.19.25:734][976]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2016.03.22-02.19.25:734][976]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2016.03.22-02.19.25:734][976]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2016.03.22-02.19.25:788][976]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCF733F6A0
+[2016.03.22-02.19.25:788][976]Cmd: MEM
+[2016.03.22-02.19.25:798][976]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-02.19.25:798][976]LogMemory: Process Physical Memory: 3925.58 MB used, 3932.41 MB peak
+[2016.03.22-02.19.25:799][976]LogMemory: Process Virtual Memory: 4685.78 MB used, 4685.78 MB peak
+[2016.03.22-02.19.25:799][976]LogMemory: Physical Memory: 7800.59 MB used, 8149.52 MB total
+[2016.03.22-02.19.25:799][976]LogMemory: Virtual Memory: 5909.92 MB used, 134217728.00 MB total
+[2016.03.22-02.19.25:799][976]LogMemory: 
+[2016.03.22-02.19.25:799][976]Allocator Stats for TBB: (not implemented)
+[2016.03.22-02.19.25:799][976]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap
+[2016.03.22-02.19.25:818][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019076s)
+[2016.03.22-02.19.25:819][976]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.19.25:819][976]LogPlayLevel: PIE: World Init took: (0.001170s)
+[2016.03.22-02.19.25:819][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020536s)
+[2016.03.22-02.19.25:819][976]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.22-02.19.25:824][976]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.21-21.19.25
+[2016.03.22-02.19.25:824][976]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.19.25:825][976]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.19.25:825][976]LogWorld: Bringing up level for play took: 0.004482
+[2016.03.22-02.19.25:826][976]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.22-02.19.25:847][977]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.03.22-02.19.25:847][977]LogNet: Open ThirdPersonExampleMap 03/21/16 21:19:25 127.0.0.1
+[2016.03.22-02.19.25:847][977]LogNet: Added client connection.  Remote address = 127.0.0.1:58139
+[2016.03.22-02.19.25:847][977]LogNetTraffic:Warning: High single frame packet loss: 357
+[2016.03.22-02.19.26:060][  0]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_3, RemoteAddr: 127.0.0.1:58139 Driver: GameNetDriver, PC: NoPC, Owner: No Owner
+[2016.03.22-02.19.26:060][  0]LogNet: UNetConnection::Close: Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, PC: NULL, Owner: NULL, Channels: 1, RemoteAddr: 127.0.0.1:58139, Time: 2016.03.22-02.19.26
+[2016.03.22-02.19.39:438][495]LogBlueprintUserMessages: [MPGameInstance_C_1] joining session
+[2016.03.22-02.19.39:439][495]LogNet: Browse: 143.200.126.223//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.03.22-02.19.39:440][495]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.22-02.19.39:440][495]LogNet: Game client on port 7777, rate 10000
+[2016.03.22-02.19.39:440][495]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-02.19.39:447][496]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.03.22-02.19.39:448][496]LogNet: Open ThirdPersonExampleMap 03/21/16 21:19:39 143.200.126.223
+[2016.03.22-02.19.39:448][496]LogNet: Added client connection.  Remote address = 143.200.126.223:58143
+[2016.03.22-02.19.39:448][496]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2016.03.22-02.19.39:448][496]LogNet: Remote platform little endian=1
+[2016.03.22-02.19.39:448][496]LogNet: This platform little endian=1
+[2016.03.22-02.19.39:448][496]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-02.19.39:456][497]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-29CECBEF4EA6AB02B2AF25A503DAEBCE userId: Jake-Labeots-PC-29CECBEF4EA6AB02B2AF25A503DAEBCE
+[2016.03.22-02.19.39:458][497]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.22-02.19.39:458][497]LogLoad: LoadMap: 143.200.126.223//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.22-02.19.39:474][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCF733F4C0
+[2016.03.22-02.19.39:474][497]Cmd: MEM
+[2016.03.22-02.19.39:484][497]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-02.19.39:484][497]LogMemory: Process Physical Memory: 3928.62 MB used, 3945.20 MB peak
+[2016.03.22-02.19.39:484][497]LogMemory: Process Virtual Memory: 4469.96 MB used, 4705.51 MB peak
+[2016.03.22-02.19.39:484][497]LogMemory: Physical Memory: 7805.34 MB used, 8149.52 MB total
+[2016.03.22-02.19.39:484][497]LogMemory: Virtual Memory: 5845.61 MB used, 134217728.00 MB total
+[2016.03.22-02.19.39:484][497]LogMemory: 
+[2016.03.22-02.19.39:484][497]Allocator Stats for TBB: (not implemented)
+[2016.03.22-02.19.39:503][497]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
+[2016.03.22-02.19.39:504][497]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.19.39:522][497]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.21-21.19.39
+[2016.03.22-02.19.39:522][497]LogWorld: Bringing up level for play took: 0.016022
+[2016.03.22-02.19.39:531][498]LogNet: Client netspeed is 10000
+[2016.03.22-02.19.39:531][498]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-29CECBEF4EA6AB02B2AF25A503DAEBCE?SplitscreenCount=1
+[2016.03.22-02.19.39:541][498]LogNet: Join succeeded: Jake-Labeots-PC-29CE
+[2016.03.22-02.19.52:313][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-02.19.52:517][907]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-02.19.52:544][907]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.03.22-02.19.52:771][907]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-02.19.52:772][907]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.22-02.19.52:803][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-02.19.52:813][907]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_8] [PlayerController_8]. ChIndex == 0. Closing connection.
+[2016.03.22-02.19.52:813][907]LogNet: UNetConnection::Close: Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_3, PC: PlayerController_8, Owner: PlayerController_8, Channels: 10, RemoteAddr: 143.200.126.223:7777, Time: 2016.03.22-02.19.52
+[2016.03.22-02.19.52:813][907]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2016.03.22-02.19.52:814][907]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.22-02.19.52:814][907]LogNet: UNetConnection::Close: Name: None, Driver: GameNetDriver IpNetDriver_2, PC: None, Owner: None, Channels: 2, RemoteAddr: 143.200.126.223:58143, Time: 2016.03.22-02.19.52
+[2016.03.22-02.19.52:814][907]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_4
+[2016.03.22-02.19.52:844][907]LogExit: GameNetDriver None shut down
+[2016.03.22-02.19.52:844][907]LogExit: GameNetDriver None shut down
+[2016.03.22-02.19.52:895][908]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCF72185E0
+[2016.03.22-02.19.52:895][908]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCF7282A20
+[2016.03.22-02.19.52:932][908]LogPlayLevel:Display: Destroying online subsystem :Context_4
+[2016.03.22-02.19.52:933][908]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-02.19.52:933][908]LogPlayLevel:Display: Destroying online subsystem :Context_3
+[2016.03.22-02.19.52:933][908]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-02.20.07:049][825]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-02.20.07:049][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-02.20.07:053][825]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 21, 2016, 4:20:07 PM)
+[2016.03.22-02.20.07:053][825]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2016.03.22-02.20.07:072][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018767s)
+[2016.03.22-02.20.07:114][825]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.20.07:114][825]LogPlayLevel: PIE: World Init took: (0.041768s)
+[2016.03.22-02.20.07:114][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.061001s)
+[2016.03.22-02.20.07:133][825]LogInit: XAudio2 using 'Speakers (M-Audio Mobile Pre MKII)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-02.20.07:140][825]LogInit: FAudioDevice initialized.
+[2016.03.22-02.20.07:270][825]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.22-02.20.07:276][825]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.21-21.20.07
+[2016.03.22-02.20.07:276][825]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.20.07:277][825]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.20.07:277][825]LogWorld: Bringing up level for play took: 0.005106
+[2016.03.22-02.20.07:288][825]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.22-02.20.07:290][825]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.22-02.20.07:290][825]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2016.03.22-02.20.07:291][825]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.22-02.20.07:308][825]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap -0.246
+[2016.03.22-02.20.07:312][825]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 21, 2016, 4:20:07 PM)
+[2016.03.22-02.20.07:388][825]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.03.22-02.20.07:388][825]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.22-02.20.07:389][825]LogNet: Game client on port 7777, rate 10000
+[2016.03.22-02.20.07:389][825]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-02.20.07:402][825]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap -0.152
+[2016.03.22-02.20.07:406][825]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-02.20.07:406][825]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.03.22-02.20.07:406][825]LogNet: Open ThirdPersonExampleMap 03/21/16 21:20:07 127.0.0.1
+[2016.03.22-02.20.07:406][825]LogNet: Added client connection.  Remote address = 127.0.0.1:58599
+[2016.03.22-02.20.07:406][825]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2016.03.22-02.20.07:406][825]LogNet: Remote platform little endian=1
+[2016.03.22-02.20.07:406][825]LogNet: This platform little endian=1
+[2016.03.22-02.20.07:406][825]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-02.20.07:419][825]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.22-02.20.07:430][826]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-CEDB99DF47857CE3A9363582565A6C8D userId: Jake-Labeots-PC-CEDB99DF47857CE3A9363582565A6C8D
+[2016.03.22-02.20.07:431][826]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.22-02.20.07:433][826]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.22-02.20.07:446][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCF7218E00
+[2016.03.22-02.20.07:446][826]Cmd: MEM
+[2016.03.22-02.20.07:458][826]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-02.20.07:458][826]LogMemory: Process Physical Memory: 3934.87 MB used, 3949.56 MB peak
+[2016.03.22-02.20.07:458][826]LogMemory: Process Virtual Memory: 4556.28 MB used, 4705.51 MB peak
+[2016.03.22-02.20.07:458][826]LogMemory: Physical Memory: 7834.84 MB used, 8149.52 MB total
+[2016.03.22-02.20.07:458][826]LogMemory: Virtual Memory: 5817.61 MB used, 134217728.00 MB total
+[2016.03.22-02.20.07:458][826]LogMemory: 
+[2016.03.22-02.20.07:458][826]Allocator Stats for TBB: (not implemented)
+[2016.03.22-02.20.07:480][826]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
+[2016.03.22-02.20.07:481][826]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.20.07:486][826]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.21-21.20.07
+[2016.03.22-02.20.07:486][826]LogWorld: Bringing up level for play took: 0.004243
+[2016.03.22-02.20.07:514][827]LogNet: Client netspeed is 10000
+[2016.03.22-02.20.07:514][827]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-CEDB99DF47857CE3A9363582565A6C8D?SplitscreenCount=1
+[2016.03.22-02.20.07:514][827]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.22-02.20.07:517][827]LogNet: Join succeeded: Jake-Labeots-PC-CEDB
+[2016.03.22-02.20.07:559][831]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.22-02.20.07:594][835]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.22-02.20.09:837][ 95]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-02.20.10:053][ 95]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-02.20.10:054][ 95]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.03.22-02.20.10:054][ 95]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.03.22-02.20.10:176][ 95]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-02.20.10:187][ 95]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.22-02.20.10:187][ 95]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-02.20.10:199][ 95]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.22-02.20.10:199][ 95]LogNet: UNetConnection::Close: Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_4, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:58599, Time: 2016.03.22-02.20.10
+[2016.03.22-02.20.10:199][ 95]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_6
+[2016.03.22-02.20.10:199][ 95]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.22-02.20.10:199][ 95]LogNet: UNetConnection::Close: Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_5, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.22-02.20.10
+[2016.03.22-02.20.10:199][ 95]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2016.03.22-02.20.10:203][ 95]LogExit: GameNetDriver None shut down
+[2016.03.22-02.20.10:204][ 95]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BD8FA05800
+[2016.03.22-02.20.10:204][ 95]LogExit: GameNetDriver None shut down
+[2016.03.22-02.20.10:217][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCF72809A0
+[2016.03.22-02.20.10:226][ 96]LogPlayLevel:Display: Destroying online subsystem :Context_6
+[2016.03.22-02.20.10:226][ 96]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-02.20.10:226][ 96]LogPlayLevel:Display: Destroying online subsystem :Context_5
+[2016.03.22-02.20.10:226][ 96]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-02.22.14:798][473]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-02.22.14:798][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-02.22.14:829][473]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 21, 2016, 4:22:14 PM)
+[2016.03.22-02.22.14:829][473]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2016.03.22-02.22.14:869][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039582s)
+[2016.03.22-02.22.14:881][473]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.22.14:881][473]LogPlayLevel: PIE: World Init took: (0.011632s)
+[2016.03.22-02.22.14:881][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.051536s)
+[2016.03.22-02.22.14:901][473]LogInit: XAudio2 using 'Speakers (M-Audio Mobile Pre MKII)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-02.22.14:907][473]LogInit: FAudioDevice initialized.
+[2016.03.22-02.22.15:007][473]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.22-02.22.15:013][473]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.21-21.22.15
+[2016.03.22-02.22.15:013][473]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.22.15:014][473]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.22.15:014][473]LogWorld: Bringing up level for play took: 0.005650
+[2016.03.22-02.22.15:025][473]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.22-02.22.15:026][473]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.22-02.22.15:027][473]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2016.03.22-02.22.15:027][473]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.22-02.22.15:043][473]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap -0.512
+[2016.03.22-02.22.15:047][473]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 21, 2016, 4:22:15 PM)
+[2016.03.22-02.22.15:157][473]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.03.22-02.22.15:158][473]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.22-02.22.15:158][473]LogNet: Game client on port 7777, rate 10000
+[2016.03.22-02.22.15:158][473]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-02.22.15:175][473]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap -0.38
+[2016.03.22-02.22.15:178][473]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-02.22.15:178][473]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.03.22-02.22.15:179][473]LogNet: Open ThirdPersonExampleMap 03/21/16 21:22:15 127.0.0.1
+[2016.03.22-02.22.15:179][473]LogNet: Added client connection.  Remote address = 127.0.0.1:52752
+[2016.03.22-02.22.15:179][473]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2016.03.22-02.22.15:179][473]LogNet: Remote platform little endian=1
+[2016.03.22-02.22.15:179][473]LogNet: This platform little endian=1
+[2016.03.22-02.22.15:179][473]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-02.22.15:198][473]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.22-02.22.15:209][474]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-783ADF3848CFB15CE4497A8BB94A5F3C userId: Jake-Labeots-PC-783ADF3848CFB15CE4497A8BB94A5F3C
+[2016.03.22-02.22.15:211][474]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.22-02.22.15:212][474]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.22-02.22.15:226][474]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC810DDC60
+[2016.03.22-02.22.15:226][474]Cmd: MEM
+[2016.03.22-02.22.15:239][474]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-02.22.15:239][474]LogMemory: Process Physical Memory: 3925.94 MB used, 3962.62 MB peak
+[2016.03.22-02.22.15:239][474]LogMemory: Process Virtual Memory: 4557.09 MB used, 4705.51 MB peak
+[2016.03.22-02.22.15:239][474]LogMemory: Physical Memory: 7284.55 MB used, 8149.52 MB total
+[2016.03.22-02.22.15:239][474]LogMemory: Virtual Memory: 5794.49 MB used, 134217728.00 MB total
+[2016.03.22-02.22.15:239][474]LogMemory: 
+[2016.03.22-02.22.15:239][474]Allocator Stats for TBB: (not implemented)
+[2016.03.22-02.22.15:262][474]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
+[2016.03.22-02.22.15:263][474]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.22.15:269][474]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.21-21.22.15
+[2016.03.22-02.22.15:269][474]LogWorld: Bringing up level for play took: 0.004554
+[2016.03.22-02.22.15:298][475]LogNet: Client netspeed is 10000
+[2016.03.22-02.22.15:298][475]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-783ADF3848CFB15CE4497A8BB94A5F3C?SplitscreenCount=1
+[2016.03.22-02.22.15:299][475]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.22-02.22.15:301][475]LogNet: Join succeeded: Jake-Labeots-PC-783A
+[2016.03.22-02.22.15:355][480]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.22-02.22.15:383][483]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.22-02.22.26:015][399]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve ThirdPersonExampleMap.umap.
+[2016.03.22-02.22.26:015][399]LogBlueprintUserMessages: [MPGameInstance_C_4] Server: Session Created
+[2016.03.22-02.22.26:015][399]LogBlueprintUserMessages: [MPMenu_C_2] Server: button pressed
+[2016.03.22-02.22.26:092][399]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve ThirdPersonExampleMap.umap.
+[2016.03.22-02.22.26:092][399]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?listen
+[2016.03.22-02.22.26:093][399]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?listen
+[2016.03.22-02.22.26:093][399]LogNet: World NetDriver shutdown IpNetDriver_6 [GameNetDriver]
+[2016.03.22-02.22.26:093][399]LogNet: DestroyNamedNetDriver IpNetDriver_6 [GameNetDriver]
+[2016.03.22-02.22.26:093][399]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_9, RemoteAddr: 127.0.0.1:52752 Driver: GameNetDriver, PC: PlayerController_15, Owner: PlayerController_15
+[2016.03.22-02.22.26:093][399]LogNet: UNetConnection::Close: Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_6, PC: PlayerController_15, Owner: PlayerController_15, Channels: 11, RemoteAddr: 127.0.0.1:52752, Time: 2016.03.22-02.22.26
+[2016.03.22-02.22.26:093][399]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_8
+[2016.03.22-02.22.26:094][399]LogExit: GameNetDriver IpNetDriver_6 shut down
+[2016.03.22-02.22.26:110][399]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC810DC180
+[2016.03.22-02.22.26:110][399]Cmd: MEM
+[2016.03.22-02.22.26:123][399]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-02.22.26:123][399]LogMemory: Process Physical Memory: 3936.39 MB used, 3962.62 MB peak
+[2016.03.22-02.22.26:123][399]LogMemory: Process Virtual Memory: 4590.74 MB used, 4705.51 MB peak
+[2016.03.22-02.22.26:123][399]LogMemory: Physical Memory: 7299.16 MB used, 8149.52 MB total
+[2016.03.22-02.22.26:123][399]LogMemory: Virtual Memory: 5858.55 MB used, 134217728.00 MB total
+[2016.03.22-02.22.26:123][399]LogMemory: 
+[2016.03.22-02.22.26:123][399]Allocator Stats for TBB: (not implemented)
+[2016.03.22-02.22.26:123][399]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2016.03.22-02.22.26:144][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020235s)
+[2016.03.22-02.22.26:145][399]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.22.26:146][399]LogPlayLevel: PIE: World Init took: (0.001798s)
+[2016.03.22-02.22.26:146][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022586s)
+[2016.03.22-02.22.26:146][399]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.22-02.22.26:146][399]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.22-02.22.26:147][399]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2016.03.22-02.22.26:163][399]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.21-21.22.26
+[2016.03.22-02.22.26:163][399]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.22.26:163][399]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.22.26:164][399]LogWorld: Bringing up level for play took: 0.015479
+[2016.03.22-02.22.26:164][399]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.03.22-02.22.26:166][399]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.03.22-02.22.26:166][399]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.03.22-02.22.26:166][399]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2016.03.22-02.22.26:166][399]LogNet: UNetConnection::Close: Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_7, PC: PlayerController_16, Owner: PlayerController_16, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.22-02.22.26
+[2016.03.22-02.22.26:166][399]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_7
+[2016.03.22-02.22.26:166][399]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.03.22-02.22.26:166][399]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.03.22-02.22.26:166][399]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2016.03.22-02.22.26:166][399]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.03.22-02.22.26:167][399]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.03.22-02.22.26:175][400]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.03.22-02.22.26:176][400]LogNet: Open ThirdPersonExampleMap 03/21/16 21:22:26 127.0.0.1
+[2016.03.22-02.22.26:176][400]LogNet: Added client connection.  Remote address = 127.0.0.1:52752
+[2016.03.22-02.22.26:176][400]LogNetTraffic:Warning: High single frame packet loss: 313
+[2016.03.22-02.22.26:176][400]LogSecurity:Warning: 127.0.0.1:52752: Malformed_Packet: UNetConnection::ReceivedPacket: Received control channel close before open
+[2016.03.22-02.22.26:176][400]LogSecurity:Warning: 127.0.0.1:52752: Closed: Connection closed
+[2016.03.22-02.22.26:176][400]LogNet: UNetConnection::Close: Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_8, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 127.0.0.1:52752, Time: 2016.03.22-02.22.26
+[2016.03.22-02.22.26:176][400]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_9
+[2016.03.22-02.22.26:177][400]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?closed
+[2016.03.22-02.22.26:177][400]LogNet: Failed; returning to Entry
+[2016.03.22-02.22.26:198][400]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?closed
+[2016.03.22-02.22.26:198][400]LogNet: World NetDriver shutdown IpNetDriver_7 [GameNetDriver]
+[2016.03.22-02.22.26:198][400]LogNet: DestroyNamedNetDriver IpNetDriver_7 [GameNetDriver]
+[2016.03.22-02.22.26:198][400]LogExit: GameNetDriver IpNetDriver_7 shut down
+[2016.03.22-02.22.26:215][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC81111A80
+[2016.03.22-02.22.26:215][400]Cmd: MEM
+[2016.03.22-02.22.26:226][400]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-02.22.26:226][400]LogMemory: Process Physical Memory: 3944.79 MB used, 3962.62 MB peak
+[2016.03.22-02.22.26:226][400]LogMemory: Process Virtual Memory: 4738.25 MB used, 4738.25 MB peak
+[2016.03.22-02.22.26:226][400]LogMemory: Physical Memory: 7308.11 MB used, 8149.52 MB total
+[2016.03.22-02.22.26:226][400]LogMemory: Virtual Memory: 5935.93 MB used, 134217728.00 MB total
+[2016.03.22-02.22.26:226][400]LogMemory: 
+[2016.03.22-02.22.26:226][400]Allocator Stats for TBB: (not implemented)
+[2016.03.22-02.22.26:226][400]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap
+[2016.03.22-02.22.26:246][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019814s)
+[2016.03.22-02.22.26:247][400]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.22.26:247][400]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2016.03.22-02.22.26:248][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021223s)
+[2016.03.22-02.22.26:248][400]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.22-02.22.26:253][400]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.21-21.22.26
+[2016.03.22-02.22.26:254][400]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.22.26:307][400]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-02.22.26:308][400]LogWorld: Bringing up level for play took: 0.058320
+[2016.03.22-02.22.26:308][400]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.22-02.22.26:331][401]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.03.22-02.22.26:331][401]LogNet: Open ThirdPersonExampleMap 03/21/16 21:22:26 127.0.0.1
+[2016.03.22-02.22.26:331][401]LogNet: Added client connection.  Remote address = 127.0.0.1:52752
+[2016.03.22-02.22.26:331][401]LogNetTraffic:Warning: High single frame packet loss: 314
+[2016.03.22-02.22.26:541][424]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_11, RemoteAddr: 127.0.0.1:52752 Driver: GameNetDriver, PC: NoPC, Owner: No Owner
+[2016.03.22-02.22.26:541][424]LogNet: UNetConnection::Close: Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_8, PC: NULL, Owner: NULL, Channels: 1, RemoteAddr: 127.0.0.1:52752, Time: 2016.03.22-02.22.26
+[2016.03.22-02.22.46:525][390]LogBlueprintUserMessages: [MPGameInstance_C_5] joining session
+[2016.03.22-02.22.46:526][390]LogNet: Browse: 143.200.126.223//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.03.22-02.22.46:527][390]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.22-02.22.46:527][390]LogNet: Game client on port 7777, rate 10000
+[2016.03.22-02.22.46:527][390]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-02.22.46:535][391]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.03.22-02.22.46:536][391]LogNet: Open ThirdPersonExampleMap 03/21/16 21:22:46 143.200.126.223
+[2016.03.22-02.22.46:536][391]LogNet: Added client connection.  Remote address = 143.200.126.223:52753
+[2016.03.22-02.22.46:536][391]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2016.03.22-02.22.46:536][391]LogNet: Remote platform little endian=1
+[2016.03.22-02.22.46:536][391]LogNet: This platform little endian=1
+[2016.03.22-02.22.46:536][391]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-02.22.46:544][392]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-783ADF3848CFB15CE4497A8BB94A5F3C userId: Jake-Labeots-PC-783ADF3848CFB15CE4497A8BB94A5F3C
+[2016.03.22-02.22.46:546][392]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.22-02.22.46:547][392]LogLoad: LoadMap: 143.200.126.223//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.22-02.22.46:564][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCF6B79B20
+[2016.03.22-02.22.46:564][392]Cmd: MEM
+[2016.03.22-02.22.46:574][392]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-02.22.46:574][392]LogMemory: Process Physical Memory: 3931.79 MB used, 3964.40 MB peak
+[2016.03.22-02.22.46:574][392]LogMemory: Process Virtual Memory: 4505.03 MB used, 4757.98 MB peak
+[2016.03.22-02.22.46:574][392]LogMemory: Physical Memory: 7292.18 MB used, 8149.52 MB total
+[2016.03.22-02.22.46:574][392]LogMemory: Virtual Memory: 5866.55 MB used, 134217728.00 MB total
+[2016.03.22-02.22.46:574][392]LogMemory: 
+[2016.03.22-02.22.46:574][392]Allocator Stats for TBB: (not implemented)
+[2016.03.22-02.22.46:594][392]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
+[2016.03.22-02.22.46:595][392]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-02.22.46:609][392]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.21-21.22.46
+[2016.03.22-02.22.46:609][392]LogWorld: Bringing up level for play took: 0.012888
+[2016.03.22-02.22.46:656][393]LogNet: Client netspeed is 10000
+[2016.03.22-02.22.46:656][393]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-783ADF3848CFB15CE4497A8BB94A5F3C?SplitscreenCount=1
+[2016.03.22-02.22.46:660][393]LogNet: Join succeeded: Jake-Labeots-PC-783A
+[2016.03.22-02.23.06:392][509]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-02.23.06:526][509]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-02.23.06:527][509]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.03.22-02.23.06:642][509]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-02.23.06:643][509]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.22-02.23.06:643][509]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-02.23.06:655][509]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_21] [PlayerController_21]. ChIndex == 0. Closing connection.
+[2016.03.22-02.23.06:655][509]LogNet: UNetConnection::Close: Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_9, PC: PlayerController_21, Owner: PlayerController_21, Channels: 11, RemoteAddr: 143.200.126.223:7777, Time: 2016.03.22-02.23.06
+[2016.03.22-02.23.06:655][509]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_10
+[2016.03.22-02.23.06:656][509]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.22-02.23.06:656][509]LogNet: UNetConnection::Close: Name: None, Driver: GameNetDriver IpNetDriver_8, PC: None, Owner: None, Channels: 2, RemoteAddr: 143.200.126.223:52753, Time: 2016.03.22-02.23.06
+[2016.03.22-02.23.06:656][509]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_11
+[2016.03.22-02.23.06:662][509]LogExit: GameNetDriver None shut down
+[2016.03.22-02.23.06:662][509]LogExit: GameNetDriver None shut down
+[2016.03.22-02.23.06:676][510]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCF6B7AD40
+[2016.03.22-02.23.06:676][510]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCF6BD47C0
+[2016.03.22-02.23.06:683][510]LogPlayLevel:Display: Destroying online subsystem :Context_8
+[2016.03.22-02.23.06:683][510]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-02.23.06:684][510]LogPlayLevel:Display: Destroying online subsystem :Context_7
+[2016.03.22-02.23.06:684][510]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-05.05.26:557][692]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.22-05.05.26:908][692]LightingResults: New page: Lighting Build
+[2016.03.22-05.05.27:165][692]LoadErrors: New page: Loading map: Template_Default.umap
+[2016.03.22-05.05.27:358][692]MapCheck: New page: Map Check
+[2016.03.22-05.05.27:358][692]LightingResults: New page: Lighting Build
+[2016.03.22-05.05.27:934][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC8339BBA0
+[2016.03.22-05.05.29:841][692]LogAIModule: Creating AISystem for world Untitled_4
+[2016.03.22-05.05.30:519][692]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.22-05.05.31:228][692]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.22-05.05.31:730][692]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 462.291ms to complete.
+[2016.03.22-05.05.31:755][692]LogFileHelpers: Loading map 'Template_Default' took 5.413
+[2016.03.22-05.08.32:129][360]LogSourceControl:Error: P4ERROR: Invalid connection to server.
+[2016.03.22-05.08.32:129][360]LogSourceControl:Error: Connect to server failed; check $P4PORT.
+TCP connect to 143.200.126.162:1666 failed.
+connect: 143.200.126.162:1666: WSAECONNREFUSED
+
+[2016.03.22-05.08.37:971][487]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-05.08.38:090][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.22-05.08.38:137][487]Cmd: MAP LOAD FILE="../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.22-05.08.38:164][487]LightingResults: New page: Lighting Build
+[2016.03.22-05.08.38:202][487]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2016.03.22-05.08.38:214][487]MapCheck: New page: Map Check
+[2016.03.22-05.08.38:214][487]LightingResults: New page: Lighting Build
+[2016.03.22-05.08.38:237][487]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC93C54AE0
+[2016.03.22-05.08.38:308][487]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.22-05.08.38:456][487]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.22-05.08.38:552][487]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.297ms to complete.
+[2016.03.22-05.08.38:553][487]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.443
+[2016.03.22-05.09.52:778][781]LogSourceControl:Error: P4ERROR: Invalid connection to server.
+[2016.03.22-05.09.52:778][781]LogSourceControl:Error: Connect to server failed; check $P4PORT.
+TCP connect to 143.200.126.162:1666 failed.
+connect: 143.200.126.162:1666: WSAECONNREFUSED
+
+[2016.03.22-05.09.55:843][135]LogSourceControl:Error: P4ERROR: Invalid connection to server.
+[2016.03.22-05.09.55:843][135]LogSourceControl:Error: Connect to server failed; check $P4PORT.
+TCP connect to 143.200.126.162:1666 failed.
+connect: 143.200.126.162:1666: WSAECONNREFUSED
+
+[2016.03.22-05.09.59:735][393]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.22-05.10.06:797][393]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.2266 seconds. Added 107 classes and 0 folders.
+[2016.03.22-05.10.14:296][444]LogSourceControl:Error: P4ERROR: Invalid connection to server.
+[2016.03.22-05.10.14:296][444]LogSourceControl:Error: Connect to server failed; check $P4PORT.
+TCP connect to 143.200.126.162:1666 failed.
+connect: 143.200.126.162:1666: WSAECONNREFUSED
+
+[2016.03.22-05.10.46:619][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.22-05.10.46:619][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.22-05.10.47:691][722]LogSourceControl:Error: P4ERROR: Invalid connection to server.
+[2016.03.22-05.10.47:691][722]LogSourceControl:Error: Connect to server failed; check $P4PORT.
+TCP connect to 143.200.126.162:1666 failed.
+connect: 143.200.126.162:1666: WSAECONNREFUSED
+
+[2016.03.22-05.11.05:060][ 62]BlueprintLog: New page: Compile BP_Bomb
+[2016.03.22-05.11.06:498][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2016.03.22-05.11.07:607][ 62]LogSourceControl:Error: P4ERROR: Invalid connection to server.
+[2016.03.22-05.11.07:607][ 62]LogSourceControl:Error: Connect to server failed; check $P4PORT.
+TCP connect to 143.200.126.162:1666 failed.
+connect: 143.200.126.162:1666: WSAECONNREFUSED
+
+[2016.03.22-05.11.07:619][ 62]LogSourceControl:Error: P4ERROR: Invalid connection to server.
+[2016.03.22-05.11.07:619][ 62]LogSourceControl:Error: Connect to server failed; check $P4PORT.
+TCP connect to 143.200.126.162:1666 failed.
+connect: 143.200.126.162:1666: WSAECONNREFUSED
+
+[2016.03.22-05.11.07:796][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Bomb" FILE="../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Content/ThirdPersonBP/Blueprints/BP_Bomb.uasset" SILENT=true
+[2016.03.22-05.11.08:528][ 62]LogSavePackage: Save=414.441742ms
+[2016.03.22-05.11.08:528][ 62]LogSavePackage: Moving '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Saved/BP_Bomb28D97EBF453058ADC878E99271E4D786.tmp' to '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Content/ThirdPersonBP/Blueprints/BP_Bomb.uasset'
+[2016.03.22-05.11.08:538][ 62]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Content/ThirdPersonBP/Blueprints/BP_Bomb.uasset', retrying in .5s...
+[2016.03.22-05.11.09:046][ 62]LogFileManager:Error: Error deleting file '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Content/ThirdPersonBP/Blueprints/BP_Bomb.uasset'.
+[2016.03.22-05.11.09:046][ 62]LogSavePackage:Error: Error saving '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Content/ThirdPersonBP/Blueprints/BP_Bomb.uasset'
+[2016.03.22-05.11.09:052][ 62]LogSavePackage: Total save time: 1220.436297ms
+[2016.03.22-05.11.09:052][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Content/ThirdPersonBP/Blueprints/BP_Bomb.uasset
+[2016.03.22-05.12.44:331][ 62]EditorErrors: New page: Save Output
+[2016.03.22-05.12.44:343][ 62]EditorErrors:Warning: Warning Error saving '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Content/ThirdPersonBP/Blueprints/BP_Bomb.uasset'
+[2016.03.22-05.12.44:393][ 62]BlueprintEditorCompileResults: Info [0698.81] Compile of BP_Bomb successful! [in 99,333 ms]
+[2016.03.22-05.12.45:540][132]LogSourceControl:Error: P4ERROR: Invalid connection to server.
+[2016.03.22-05.12.45:540][132]LogSourceControl:Error: Connect to server failed; check $P4PORT.
+TCP connect to 143.200.126.162:1666 failed.
+connect: 143.200.126.162:1666: WSAECONNREFUSED
+
+[2016.03.22-05.12.57:428][518]LogSourceControl:Error: P4ERROR: Invalid connection to server.
+[2016.03.22-05.12.57:428][518]LogSourceControl:Error: Connect to server failed; check $P4PORT.
+TCP connect to 143.200.126.162:1666 failed.
+connect: 143.200.126.162:1666: WSAECONNREFUSED
+
+[2016.03.22-05.12.58:049][564]SourceControl: Info Source control is disabled
+[2016.03.22-05.13.32:008][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Bomb" FILE="../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Content/ThirdPersonBP/Blueprints/BP_Bomb.uasset" SILENT=true
+[2016.03.22-05.13.32:076][721]LogSavePackage: Save=64.533783ms
+[2016.03.22-05.13.32:076][721]LogSavePackage: Moving '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Saved/BP_Bomb84450A564649167F104FE28CC2030ABB.tmp' to '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Content/ThirdPersonBP/Blueprints/BP_Bomb.uasset'
+[2016.03.22-05.13.32:215][721]LogSavePackage: Total save time: 206.548549ms
+[2016.03.22-05.13.32:215][721]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Content/ThirdPersonBP/Blueprints/BP_Bomb.uasset
+[2016.03.22-05.14.49:997][612]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-05.14.50:016][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-05.14.50:022][612]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 21, 2016, 7:14:50 PM)
+[2016.03.22-05.14.50:022][612]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2016.03.22-05.14.50:061][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039483s)
+[2016.03.22-05.14.50:062][612]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-05.14.50:062][612]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2016.03.22-05.14.50:062][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040705s)
+[2016.03.22-05.14.50:078][612]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.22-05.14.50:078][612]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.22-05.14.50:161][612]LogInit: XAudio2 using 'Speakers (M-Audio Mobile Pre MKII)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-05.14.50:169][612]LogInit: FAudioDevice initialized.
+[2016.03.22-05.14.50:289][612]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.22-05.14.50:295][612]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.22-00.14.50
+[2016.03.22-05.14.50:295][612]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-05.14.50:295][612]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-05.14.50:295][612]LogWorld: Bringing up level for play took: 0.004682
+[2016.03.22-05.14.50:306][612]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.22-05.14.50:307][612]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.22-05.14.50:308][612]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 7777
+[2016.03.22-05.14.50:308][612]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.22-05.14.50:345][612]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.791
+[2016.03.22-05.14.50:350][612]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 21, 2016, 7:14:50 PM)
+[2016.03.22-05.14.50:457][612]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.03.22-05.14.50:458][612]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.22-05.14.50:458][612]LogNet: Game client on port 7777, rate 10000
+[2016.03.22-05.14.50:458][612]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-05.14.50:498][612]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 0.943
+[2016.03.22-05.14.50:503][612]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-05.14.50:504][612]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.03.22-05.14.50:504][612]LogNet: Open ThirdPersonExampleMap 03/22/16 00:14:50 127.0.0.1
+[2016.03.22-05.14.50:504][612]LogNet: Added client connection.  Remote address = 127.0.0.1:60803
+[2016.03.22-05.14.50:504][612]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2016.03.22-05.14.50:504][612]LogNet: Remote platform little endian=1
+[2016.03.22-05.14.50:504][612]LogNet: This platform little endian=1
+[2016.03.22-05.14.50:504][612]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-05.14.50:516][612]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.22-05.14.50:538][613]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-C5DFA94449FE675037DACAB35DF851AD userId: Jake-Labeots-PC-C5DFA94449FE675037DACAB35DF851AD
+[2016.03.22-05.14.50:539][613]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.22-05.14.50:678][613]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.22-05.14.50:723][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BDC6B46020
+[2016.03.22-05.14.50:726][613]Cmd: MEM
+[2016.03.22-05.14.50:749][613]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-05.14.50:749][613]LogMemory: Process Physical Memory: 2448.27 MB used, 3964.40 MB peak
+[2016.03.22-05.14.50:749][613]LogMemory: Process Virtual Memory: 4830.17 MB used, 4830.17 MB peak
+[2016.03.22-05.14.50:749][613]LogMemory: Physical Memory: 7277.42 MB used, 8149.52 MB total
+[2016.03.22-05.14.50:749][613]LogMemory: Virtual Memory: 6054.43 MB used, 134217728.00 MB total
+[2016.03.22-05.14.50:749][613]LogMemory: 
+[2016.03.22-05.14.50:749][613]Allocator Stats for TBB: (not implemented)
+[2016.03.22-05.14.50:769][613]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
+[2016.03.22-05.14.50:783][613]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-05.14.50:788][613]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.22-00.14.50
+[2016.03.22-05.14.50:789][613]LogWorld: Bringing up level for play took: 0.004225
+[2016.03.22-05.14.50:805][614]LogNet: Client netspeed is 10000
+[2016.03.22-05.14.50:805][614]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-C5DFA94449FE675037DACAB35DF851AD?SplitscreenCount=1
+[2016.03.22-05.14.50:806][614]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.22-05.14.50:808][614]LogNet: Join succeeded: Jake-Labeots-PC-C5DF
+[2016.03.22-05.14.50:851][615]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.22-05.14.50:852][615]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.22-05.15.13:828][636]LogPackageName: SearchForPackageOnDisk took   2.380s to resolve ThirdPersonExampleMap.umap.
+[2016.03.22-05.15.13:828][636]LogBlueprintUserMessages: [MPGameInstance_C_6] Server: Session Created
+[2016.03.22-05.15.13:828][636]LogBlueprintUserMessages: [MPMenu_C_4] Server: button pressed
+[2016.03.22-05.15.13:965][636]LogPackageName: SearchForPackageOnDisk took   0.076s to resolve ThirdPersonExampleMap.umap.
+[2016.03.22-05.15.13:966][636]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?listen
+[2016.03.22-05.15.13:966][636]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?listen
+[2016.03.22-05.15.13:966][636]LogNet: World NetDriver shutdown IpNetDriver_10 [GameNetDriver]
+[2016.03.22-05.15.13:966][636]LogNet: DestroyNamedNetDriver IpNetDriver_10 [GameNetDriver]
+[2016.03.22-05.15.13:968][636]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_15, RemoteAddr: 127.0.0.1:60803 Driver: GameNetDriver, PC: PlayerController_24, Owner: PlayerController_24
+[2016.03.22-05.15.13:968][636]LogNet: UNetConnection::Close: Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_10, PC: PlayerController_24, Owner: PlayerController_24, Channels: 11, RemoteAddr: 127.0.0.1:60803, Time: 2016.03.22-05.15.13
+[2016.03.22-05.15.13:968][636]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_13
+[2016.03.22-05.15.13:969][636]LogExit: GameNetDriver IpNetDriver_10 shut down
+[2016.03.22-05.15.13:998][636]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BDC6B45620
+[2016.03.22-05.15.14:002][636]Cmd: MEM
+[2016.03.22-05.15.14:026][636]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-05.15.14:026][636]LogMemory: Process Physical Memory: 2459.16 MB used, 3964.40 MB peak
+[2016.03.22-05.15.14:026][636]LogMemory: Process Virtual Memory: 4856.05 MB used, 4919.89 MB peak
+[2016.03.22-05.15.14:026][636]LogMemory: Physical Memory: 7351.74 MB used, 8149.52 MB total
+[2016.03.22-05.15.14:026][636]LogMemory: Virtual Memory: 6109.43 MB used, 134217728.00 MB total
+[2016.03.22-05.15.14:026][636]LogMemory: 
+[2016.03.22-05.15.14:026][636]Allocator Stats for TBB: (not implemented)
+[2016.03.22-05.15.14:026][636]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2016.03.22-05.15.14:097][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071230s)
+[2016.03.22-05.15.14:098][636]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-05.15.14:098][636]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2016.03.22-05.15.14:098][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.072488s)
+[2016.03.22-05.15.14:099][636]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.22-05.15.14:099][636]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.22-05.15.14:100][636]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 7777
+[2016.03.22-05.15.14:107][636]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.22-00.15.14
+[2016.03.22-05.15.14:107][636]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-05.15.14:108][636]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-05.15.14:108][636]LogWorld: Bringing up level for play took: 0.006860
+[2016.03.22-05.15.14:109][636]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.03.22-05.15.14:111][636]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.03.22-05.15.14:111][636]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.03.22-05.15.14:111][636]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2016.03.22-05.15.14:111][636]LogNet: UNetConnection::Close: Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_11, PC: PlayerController_25, Owner: PlayerController_25, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.22-05.15.14
+[2016.03.22-05.15.14:111][636]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_12
+[2016.03.22-05.15.14:111][636]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.03.22-05.15.14:111][636]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.03.22-05.15.14:111][636]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2016.03.22-05.15.14:111][636]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.03.22-05.15.14:111][636]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.03.22-05.15.14:135][637]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.03.22-05.15.14:135][637]LogNet: Open ThirdPersonExampleMap 03/22/16 00:15:14 127.0.0.1
+[2016.03.22-05.15.14:135][637]LogNet: Added client connection.  Remote address = 127.0.0.1:60803
+[2016.03.22-05.15.14:135][637]LogNetTraffic:Warning: High single frame packet loss: 530
+[2016.03.22-05.15.14:135][637]LogSecurity:Warning: 127.0.0.1:60803: Malformed_Packet: UNetConnection::ReceivedPacket: Received control channel close before open
+[2016.03.22-05.15.14:135][637]LogSecurity:Warning: 127.0.0.1:60803: Closed: Connection closed
+[2016.03.22-05.15.14:135][637]LogNet: UNetConnection::Close: Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_12, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 127.0.0.1:60803, Time: 2016.03.22-05.15.14
+[2016.03.22-05.15.14:135][637]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_14
+[2016.03.22-05.15.14:136][637]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?closed
+[2016.03.22-05.15.14:136][637]LogNet: Failed; returning to Entry
+[2016.03.22-05.15.14:162][637]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?closed
+[2016.03.22-05.15.14:162][637]LogNet: World NetDriver shutdown IpNetDriver_11 [GameNetDriver]
+[2016.03.22-05.15.14:162][637]LogNet: DestroyNamedNetDriver IpNetDriver_11 [GameNetDriver]
+[2016.03.22-05.15.14:162][637]LogExit: GameNetDriver IpNetDriver_11 shut down
+[2016.03.22-05.15.14:191][637]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BDBA3ECA40
+[2016.03.22-05.15.14:197][637]Cmd: MEM
+[2016.03.22-05.15.14:224][637]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-05.15.14:224][637]LogMemory: Process Physical Memory: 2466.18 MB used, 3964.40 MB peak
+[2016.03.22-05.15.14:224][637]LogMemory: Process Virtual Memory: 5002.24 MB used, 5006.31 MB peak
+[2016.03.22-05.15.14:224][637]LogMemory: Physical Memory: 7430.13 MB used, 8149.52 MB total
+[2016.03.22-05.15.14:224][637]LogMemory: Virtual Memory: 6210.81 MB used, 134217728.00 MB total
+[2016.03.22-05.15.14:224][637]LogMemory: 
+[2016.03.22-05.15.14:224][637]Allocator Stats for TBB: (not implemented)
+[2016.03.22-05.15.14:224][637]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap
+[2016.03.22-05.15.14:246][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021557s)
+[2016.03.22-05.15.14:247][637]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-05.15.14:299][637]LogPlayLevel: PIE: World Init took: (0.052442s)
+[2016.03.22-05.15.14:299][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap (0.074381s)
+[2016.03.22-05.15.14:299][637]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.22-05.15.14:305][637]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.22-00.15.14
+[2016.03.22-05.15.14:305][637]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-05.15.14:305][637]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-05.15.14:306][637]LogWorld: Bringing up level for play took: 0.005241
+[2016.03.22-05.15.14:307][637]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.22-05.15.14:363][638]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.03.22-05.15.14:364][638]LogNet: Open ThirdPersonExampleMap 03/22/16 00:15:14 127.0.0.1
+[2016.03.22-05.15.14:364][638]LogNet: Added client connection.  Remote address = 127.0.0.1:60803
+[2016.03.22-05.15.14:364][638]LogNetTraffic:Warning: High single frame packet loss: 531
+[2016.03.22-05.15.14:587][648]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_17, RemoteAddr: 127.0.0.1:60803 Driver: GameNetDriver, PC: NoPC, Owner: No Owner
+[2016.03.22-05.15.14:587][648]LogNet: UNetConnection::Close: Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_12, PC: NULL, Owner: NULL, Channels: 1, RemoteAddr: 127.0.0.1:60803, Time: 2016.03.22-05.15.14
+[2016.03.22-05.15.30:967][589]LogBlueprintUserMessages: [MPGameInstance_C_7] joining session
+[2016.03.22-05.15.30:969][589]LogNet: Browse: 143.200.126.223//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.03.22-05.15.30:969][589]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.22-05.15.30:970][589]LogNet: Game client on port 7777, rate 10000
+[2016.03.22-05.15.30:970][589]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-05.15.30:984][590]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.03.22-05.15.30:985][590]LogNet: Open ThirdPersonExampleMap 03/22/16 00:15:30 143.200.126.223
+[2016.03.22-05.15.30:985][590]LogNet: Added client connection.  Remote address = 143.200.126.223:55736
+[2016.03.22-05.15.30:985][590]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2016.03.22-05.15.30:985][590]LogNet: Remote platform little endian=1
+[2016.03.22-05.15.30:985][590]LogNet: This platform little endian=1
+[2016.03.22-05.15.30:985][590]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: multiplayer, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1550881971
+[2016.03.22-05.15.31:001][591]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-C5DFA94449FE675037DACAB35DF851AD userId: Jake-Labeots-PC-C5DFA94449FE675037DACAB35DF851AD
+[2016.03.22-05.15.31:002][591]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.22-05.15.31:004][591]LogLoad: LoadMap: 143.200.126.223//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.22-05.15.31:031][591]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCFBAE5EE0
+[2016.03.22-05.15.31:031][591]Cmd: MEM
+[2016.03.22-05.15.31:054][591]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-05.15.31:054][591]LogMemory: Process Physical Memory: 2467.06 MB used, 3964.40 MB peak
+[2016.03.22-05.15.31:054][591]LogMemory: Process Virtual Memory: 4797.87 MB used, 5022.09 MB peak
+[2016.03.22-05.15.31:054][591]LogMemory: Physical Memory: 7363.99 MB used, 8149.52 MB total
+[2016.03.22-05.15.31:054][591]LogMemory: Virtual Memory: 6158.68 MB used, 134217728.00 MB total
+[2016.03.22-05.15.31:054][591]LogMemory: 
+[2016.03.22-05.15.31:054][591]Allocator Stats for TBB: (not implemented)
+[2016.03.22-05.15.31:072][591]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
+[2016.03.22-05.15.31:073][591]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-05.15.31:086][591]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.03.22-00.15.31
+[2016.03.22-05.15.31:086][591]LogWorld: Bringing up level for play took: 0.011192
+[2016.03.22-05.15.31:103][592]LogNet: Client netspeed is 10000
+[2016.03.22-05.15.31:103][592]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Jake-Labeots-PC-C5DFA94449FE675037DACAB35DF851AD?SplitscreenCount=1
+[2016.03.22-05.15.31:106][592]LogNet: Join succeeded: Jake-Labeots-PC-C5DF
+[2016.03.22-05.15.56:939][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-05.15.57:054][742]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-05.15.57:193][742]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-05.15.57:194][742]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.22-05.15.57:194][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-05.15.57:211][742]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_30] [PlayerController_30]. ChIndex == 0. Closing connection.
+[2016.03.22-05.15.57:211][742]LogNet: UNetConnection::Close: Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_13, PC: PlayerController_30, Owner: PlayerController_30, Channels: 13, RemoteAddr: 143.200.126.223:7777, Time: 2016.03.22-05.15.57
+[2016.03.22-05.15.57:211][742]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_15
+[2016.03.22-05.15.57:213][742]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.22-05.15.57:213][742]LogNet: UNetConnection::Close: Name: None, Driver: GameNetDriver IpNetDriver_12, PC: None, Owner: None, Channels: 2, RemoteAddr: 143.200.126.223:55736, Time: 2016.03.22-05.15.57
+[2016.03.22-05.15.57:213][742]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_16
+[2016.03.22-05.15.57:217][742]LogExit: GameNetDriver None shut down
+[2016.03.22-05.15.57:218][742]LogExit: GameNetDriver None shut down
+[2016.03.22-05.15.57:241][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BDC46BDEE0
+[2016.03.22-05.15.57:241][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BDC6B479C0
+[2016.03.22-05.15.57:241][743]LogPlayLevel:Display: Destroying online subsystem :Context_11
+[2016.03.22-05.15.57:241][743]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-05.15.57:242][743]LogPlayLevel:Display: Destroying online subsystem :Context_10
+[2016.03.22-05.15.57:242][743]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-05.22.37:612][103]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.22-05.22.37:612][103]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.22-05.22.38:824][103]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.22-05.22.40:766][104]Cmd: QUIT_EDITOR
+[2016.03.22-05.22.42:995][104]LogExit: Preparing to exit.
+[2016.03.22-05.22.48:701][104]LogExit: Editor shut down
+[2016.03.22-05.22.48:798][104]LogExit: Transaction tracking system shut down
+[2016.03.22-05.22.49:061][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC93CDB740
+[2016.03.22-05.22.49:061][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCF7D6C400
+[2016.03.22-05.22.55:308][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC93B765C0
+[2016.03.22-05.22.55:308][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC93CDADE0
+[2016.03.22-05.22.55:308][104]LogExit: Object subsystem successfully closed.
+[2016.03.22-05.22.56:634][104]LogD3D11RHI: Shutdown
+[2016.03.22-05.22.56:634][104]LogD3D11RHI: CleanupD3DDevice
+[2016.03.22-05.22.57:171][104]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.22-05.22.59:745][104]LogModuleManager: Shutting down and abandoning module CookingStats (203)
+[2016.03.22-05.22.59:745][104]LogModuleManager: Shutting down and abandoning module BlueprintGraph (202)
+[2016.03.22-05.22.59:745][104]LogModuleManager: Shutting down and abandoning module NewLevelDialog (201)
+[2016.03.22-05.22.59:745][104]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.03.22-05.22.59:801][104]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.03.22-05.22.59:801][104]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.03.22-05.22.59:822][104]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.03.22-05.22.59:841][104]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.03.22-05.23.00:219][104]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.03.22-05.23.00:219][104]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.03.22-05.23.00:289][104]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.03.22-05.23.00:445][104]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.03.22-05.23.00:459][104]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.03.22-05.23.00:541][104]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.03.22-05.23.00:541][104]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.03.22-05.23.00:541][104]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.03.22-05.23.00:541][104]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.03.22-05.23.00:542][104]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.03.22-05.23.00:542][104]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.03.22-05.23.00:560][104]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.03.22-05.23.00:599][104]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.03.22-05.23.00:599][104]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.03.22-05.23.00:615][104]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.03.22-05.23.00:731][104]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.03.22-05.23.00:772][104]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.03.22-05.23.00:841][104]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.03.22-05.23.00:860][104]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.03.22-05.23.00:889][104]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.03.22-05.23.00:896][104]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.03.22-05.23.01:137][104]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.03.22-05.23.01:156][104]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.03.22-05.23.01:156][104]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.03.22-05.23.01:156][104]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.03.22-05.23.01:183][104]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.03.22-05.23.01:224][104]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.03.22-05.23.01:242][104]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.03.22-05.23.01:249][104]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.03.22-05.23.01:267][104]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.03.22-05.23.01:297][104]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.03.22-05.23.01:297][104]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.03.22-05.23.01:329][104]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.03.22-05.23.01:349][104]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.03.22-05.23.01:358][104]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.03.22-05.23.01:358][104]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.03.22-05.23.01:375][104]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.03.22-05.23.01:375][104]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.03.22-05.23.01:431][104]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.03.22-05.23.01:458][104]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.03.22-05.23.01:565][104]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.03.22-05.23.01:573][104]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.03.22-05.23.01:603][104]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.03.22-05.23.01:658][104]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.03.22-05.23.01:682][104]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.03.22-05.23.01:706][104]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.03.22-05.23.01:707][104]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.03.22-05.23.01:860][104]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.03.22-05.23.01:889][104]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.03.22-05.23.01:937][104]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.03.22-05.23.01:978][104]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.03.22-05.23.01:978][104]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.03.22-05.23.02:028][104]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.03.22-05.23.02:028][104]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.03.22-05.23.02:080][104]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.03.22-05.23.02:109][104]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.03.22-05.23.02:128][104]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.03.22-05.23.02:157][104]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.03.22-05.23.02:194][104]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.03.22-05.23.02:224][104]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.03.22-05.23.02:334][104]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.03.22-05.23.02:334][104]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.03.22-05.23.02:345][104]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.03.22-05.23.02:345][104]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.03.22-05.23.02:355][104]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.03.22-05.23.02:395][104]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.03.22-05.23.02:396][104]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.03.22-05.23.02:416][104]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.03.22-05.23.02:438][104]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.03.22-05.23.02:456][104]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.03.22-05.23.02:456][104]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.03.22-05.23.02:696][104]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.03.22-05.23.02:751][104]LogModuleManager: Shutting down and abandoning module SlateRemote (123)
+[2016.03.22-05.23.02:773][104]LogModuleManager: Shutting down and abandoning module SteamVRController (122)
+[2016.03.22-05.23.02:773][104]LogModuleManager: Shutting down and abandoning module SteamVR (121)
+[2016.03.22-05.23.02:773][104]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (120)
+[2016.03.22-05.23.02:773][104]LogModuleManager: Shutting down and abandoning module OculusLibrary (119)
+[2016.03.22-05.23.02:797][104]LogModuleManager: Shutting down and abandoning module OculusInput (118)
+[2016.03.22-05.23.02:797][104]LogModuleManager: Shutting down and abandoning module LeapMotionController (117)
+[2016.03.22-05.23.03:098][104]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (116)
+[2016.03.22-05.23.03:111][104]LogModuleManager: Shutting down and abandoning module CableComponent (115)
+[2016.03.22-05.23.03:122][104]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (114)
+[2016.03.22-05.23.03:122][104]LogModuleManager: Shutting down and abandoning module MessagingDebugger (113)
+[2016.03.22-05.23.03:263][104]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (112)
+[2016.03.22-05.23.03:309][104]LogModuleManager: Shutting down and abandoning module HTML5Networking (111)
+[2016.03.22-05.23.03:309][104]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (110)
+[2016.03.22-05.23.03:309][104]LogModuleManager: Shutting down and abandoning module PluginBrowser (109)
+[2016.03.22-05.23.03:338][104]LogModuleManager: Shutting down and abandoning module EpicSurvey (108)
+[2016.03.22-05.23.03:371][104]LogModuleManager: Shutting down and abandoning module DesktopPlatform (107)
+[2016.03.22-05.23.03:389][104]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (106)
+[2016.03.22-05.23.03:396][104]LogModuleManager: Shutting down and abandoning module UObjectPlugin (105)
+[2016.03.22-05.23.03:396][104]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (104)
+[2016.03.22-05.23.03:446][104]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (103)
+[2016.03.22-05.23.03:446][104]LogModuleManager: Shutting down and abandoning module SourceControl (102)
+[2016.03.22-05.23.03:446][104]LogModuleManager: Shutting down and abandoning module GitSourceControl (101)
+[2016.03.22-05.23.03:470][104]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (100)
+[2016.03.22-05.23.03:484][104]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (99)
+[2016.03.22-05.23.03:498][104]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (98)
+[2016.03.22-05.23.03:514][104]LogModuleManager: Shutting down and abandoning module MeshPaint (97)
+[2016.03.22-05.23.03:532][104]LogModuleManager: Shutting down and abandoning module SlateReflector (96)
+[2016.03.22-05.23.03:552][104]LogModuleManager: Shutting down and abandoning module HotReload (95)
+[2016.03.22-05.23.03:558][104]LogModuleManager: Shutting down and abandoning module MainFrame (94)
+[2016.03.22-05.23.03:577][104]LogModuleManager: Shutting down and abandoning module LevelEditor (93)
+[2016.03.22-05.23.03:758][104]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (92)
+[2016.03.22-05.23.03:883][104]LogModuleManager: Shutting down and abandoning module AssetRegistry (91)
+[2016.03.22-05.23.04:996][104]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Intermediate/CachedAssetRegistry.bin', retrying in .5s...
+[2016.03.22-05.23.04:996][104]LogFileManager:Error: Error deleting file '../../../../../../Users/Jake-Labeots/Perforce/multiplayer/Intermediate/CachedAssetRegistry.bin'.
+[2016.03.22-05.23.04:996][104]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2016.03.22-05.23.05:105][104]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2016.03.22-05.23.05:190][104]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2016.03.22-05.23.05:307][104]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (87)
+[2016.03.22-05.23.05:307][104]LogModuleManager: Shutting down and abandoning module Paper2D (86)
+[2016.03.22-05.23.05:328][104]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (85)
+[2016.03.22-05.23.05:407][104]LogModuleManager: Shutting down and abandoning module Media (84)
+[2016.03.22-05.23.05:407][104]LogModuleManager: Shutting down and abandoning module WmfMedia (83)
+[2016.03.22-05.23.05:440][104]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (82)
+[2016.03.22-05.23.05:440][104]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (81)
+[2016.03.22-05.23.05:440][104]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
+[2016.03.22-05.23.05:523][104]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (79)
+[2016.03.22-05.23.05:538][104]LogModuleManager: Shutting down and abandoning module FunctionalTesting (78)
+[2016.03.22-05.23.05:561][104]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (77)
+[2016.03.22-05.23.05:584][104]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (76)
+[2016.03.22-05.23.05:656][104]LogModuleManager: Shutting down and abandoning module MessageLog (75)
+[2016.03.22-05.23.05:656][104]LogModuleManager: Shutting down and abandoning module Sequencer (74)
+[2016.03.22-05.23.05:788][104]LogModuleManager: Shutting down and abandoning module AssetTools (73)
+[2016.03.22-05.23.05:828][104]LogModuleManager: Shutting down and abandoning module UMGEditor (72)
+[2016.03.22-05.23.05:857][104]LogModuleManager: Shutting down and abandoning module UMG (71)
+[2016.03.22-05.23.05:867][104]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.03.22-05.23.05:867][104]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.03.22-05.23.06:005][104]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.03.22-05.23.06:005][104]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.03.22-05.23.06:030][104]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.03.22-05.23.06:030][104]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.03.22-05.23.06:030][104]LogModuleManager: Shutting down and abandoning module Networking (64)
+[2016.03.22-05.23.06:044][104]LogModuleManager: Shutting down and abandoning module Core (63)
+[2016.03.22-05.23.06:044][104]LogModuleManager: Shutting down and abandoning module KismetCompiler (62)
+[2016.03.22-05.23.06:044][104]LogModuleManager: Shutting down and abandoning module PhysXFormats (61)
+[2016.03.22-05.23.06:061][104]LogModuleManager: Shutting down and abandoning module MeshUtilities (60)
+[2016.03.22-05.23.06:142][104]LogModuleManager: Shutting down and abandoning module DerivedDataCache (59)
+[2016.03.22-05.23.06:178][104]LogDerivedDataCache: Shutdown
+[2016.03.22-05.23.06:178][104]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (58)
+[2016.03.22-05.23.06:228][104]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (57)
+[2016.03.22-05.23.06:255][104]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (56)
+[2016.03.22-05.23.06:315][104]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (55)
+[2016.03.22-05.23.06:337][104]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (54)
+[2016.03.22-05.23.06:337][104]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.03.22-05.23.06:358][104]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (52)
+[2016.03.22-05.23.06:358][104]LogModuleManager: Shutting down and abandoning module ImageWrapper (51)
+[2016.03.22-05.23.06:358][104]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (50)
+[2016.03.22-05.23.06:370][104]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (49)
+[2016.03.22-05.23.06:386][104]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (48)
+[2016.03.22-05.23.06:454][104]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (47)
+[2016.03.22-05.23.06:467][104]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (46)
+[2016.03.22-05.23.06:509][104]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (45)
+[2016.03.22-05.23.06:554][104]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (44)
+[2016.03.22-05.23.06:584][104]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (43)
+[2016.03.22-05.23.06:604][104]LogModuleManager: Shutting down and abandoning module Messaging (42)
+[2016.03.22-05.23.06:604][104]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (41)
+[2016.03.22-05.23.06:604][104]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (40)
+[2016.03.22-05.23.06:617][104]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (39)
+[2016.03.22-05.23.06:617][104]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (38)
+[2016.03.22-05.23.06:617][104]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (37)
+[2016.03.22-05.23.06:617][104]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (36)
+[2016.03.22-05.23.06:617][104]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (35)
+[2016.03.22-05.23.06:617][104]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (34)
+[2016.03.22-05.23.06:617][104]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (33)
+[2016.03.22-05.23.06:617][104]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (32)
+[2016.03.22-05.23.06:617][104]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (31)
+[2016.03.22-05.23.06:648][104]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (30)
+[2016.03.22-05.23.06:666][104]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (29)
+[2016.03.22-05.23.06:674][104]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (28)
+[2016.03.22-05.23.06:680][104]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (27)
+[2016.03.22-05.23.06:692][104]LogModuleManager: Shutting down and abandoning module TargetPlatform (26)
+[2016.03.22-05.23.06:747][104]LogModuleManager: Shutting down and abandoning module InputCore (25)
+[2016.03.22-05.23.06:747][104]LogModuleManager: Shutting down and abandoning module Settings (24)
+[2016.03.22-05.23.06:767][104]LogModuleManager: Shutting down and abandoning module Voice (22)
+[2016.03.22-05.23.06:767][104]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.22-05.23.06:775][104]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.22-05.23.06:808][104]LogOnline:Display: Unloading online subsystem: Null
+[2016.03.22-05.23.06:857][104]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.22-05.23.08:937][104]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.22-05.23.08:971][104]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.22-05.23.09:002][104]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.22-05.23.09:024][104]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.22-05.23.09:062][104]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.22-05.23.09:062][104]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.22-05.23.09:062][104]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.22-05.23.09:208][104]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.22-05.23.09:240][104]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.22-05.23.09:240][104]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.22-05.23.09:240][104]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.22-05.23.09:240][104]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.22-05.23.09:240][104]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.22-05.23.09:240][104]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.22-05.23.09:253][104]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.22-05.23.09:263][104]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.22-05.23.09:280][104]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.22-05.23.09:429][104]LogExit: Exiting.
+[2016.03.22-05.23.09:787][104]Log file closed, 03/22/16 00:23:09
